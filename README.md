@@ -1,5 +1,5 @@
 Mapreduce word count example
-===========================================================
+============================
 A minimal word count example with hadoop mapreduce java API
 
 Before
@@ -22,4 +22,4 @@ el-quijote.txt el-quijote-wc
 
 Resources
 ---------
-Packaged jar [(copy and try)]
+Packaged jar [(copy and try)](https://github.com/amanas/mapreduce-wc/blob/master/jar/mapreduce-wc.jar)

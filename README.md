@@ -8,11 +8,13 @@ Ensure [el-quijote.txt](https://github.com/gclaramunt/el-quijote-spark/blob/mast
 
 Package
 -------
+```sh
 mvn clean package
+```
 
 Run (from a cluster node)
 -------------------------
-```bash
+```sh
 hadoop jar mapreduce-wc.jar amm.bis.wc.WordCount \
 -libjars /opt/cloudera/parcels/CDH/jars/ \
 el-quijote.txt el-quijote-wc

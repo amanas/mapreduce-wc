@@ -13,6 +13,9 @@ import org.apache.hadoop.mrunit.mapreduce.ReduceDriver;
 import org.junit.Before;
 import org.junit.Test;
 
+import amm.bis.wc.WordCount.Map;
+import amm.bis.wc.WordCount.Reduce;
+
 public class WordCountTest {
 
     // Specification of Mapper

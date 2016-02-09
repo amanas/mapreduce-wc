@@ -16,7 +16,7 @@ Run (from a cluster node)
 -------------------------
 ```sh
 hadoop jar mapreduce-wc.jar amm.bis.wc.WordCount \
--libjars /home/amanas/mapreduce-wc.jar,/opt/cloudera/parcels/CDH/jars/ \
+-libjars mapreduce-wc.jar,/usr/hdp/2.3.2.0-2950/hadoop-mapreduce \
 el-quijote.txt el-quijote-wc-java
 ```
 
